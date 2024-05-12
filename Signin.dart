@@ -1,4 +1,4 @@
-import 'dart:async';
+/*import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -44,7 +44,7 @@ class SignInScreen extends StatelessWidget {
       final email = _emailController.text.trim();
       final password = _passwordController.text.trim();
 
-      if (email == "" && password == "") {
+      if (email == "ahmedszabist@gmail.com" && password == "ahmedszabist") {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text("Admin signed in successfully"),
@@ -107,9 +107,9 @@ class SignInScreen extends StatelessWidget {
         title: const Center(
           child: Text('Sign In'),
         ),
-        backgroundColor: Color.fromARGB(255, 119, 53, 53),
+        backgroundColor: Color.fromARGB(255, 162, 149, 175),
       ),
-      backgroundColor: Color.fromARGB(255, 181, 133, 226),
+      backgroundColor: Color.fromARGB(255, 153, 194, 212),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -163,3 +163,4 @@ class SignInScreen extends StatelessWidget {
     );
   }
 }
+*/
