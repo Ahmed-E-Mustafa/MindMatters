@@ -105,7 +105,7 @@ class SignInScreen extends StatelessWidget {
       final email = _emailController.text.trim();
       final password = _passwordController.text.trim();
 
-      if (email == "ahmedszabist@gmail.com" && password == "ahmedszabist") {
+      if (email == "" && password == "") {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text("Admin signed in successfully"),
