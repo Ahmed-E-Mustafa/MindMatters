@@ -129,7 +129,6 @@ class AgoraPage extends StatefulWidget {
 class _AgoraPageState extends State<AgoraPage> {
   final AgoraClient client = AgoraClient(
     agoraConnectionData: AgoraConnectionData(
-      appId: "f041fa5c2bfc4d79938a8b1cf6dc4da8",
       channelName: "test",
       tempToken: "YOUR_VALID_TOKEN_HERE", // Replace with a valid token
     ),
